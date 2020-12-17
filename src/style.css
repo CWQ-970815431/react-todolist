@@ -1,0 +1,85 @@
+/* 主体内容 */
+.content{
+  margin: 20px auto 20px auto;
+	width: 500px;
+	min-height: 600px;
+	border: 5px solid rgba(73,204,249,1.0);
+  padding: 20px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+/* 输入框 */
+.add{width: 70%;
+  border: none;
+  border-top:2px solid rgba(73,204,249,1);
+  border-bottom:2px solid rgba(73,204,249,1);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;}
+/* 输入框聚焦状态 */
+.react-todolist{
+  padding-bottom: 10px;
+}
+.add:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solidrgba(73,204,249,1);
+  border-bottom: 2px solid rgba(73,204,249,1);
+}
+.btn {
+    outline: none;
+		box-shadow: none;
+		border-width: 2px;
+		border-radius: 3px;
+		border-style: solid;
+    padding: 8px;
+    color: rgba(73,204,249,1.0);
+		border-color: rgba(73,204,249,1);
+		background-color: transparent;
+}
+.clear{
+  margin-left: 5px;
+}
+
+/* todolist */
+.todoWrapper {
+	border-bottom: 1px solid #efefef;
+	text-align: left;
+	margin-bottom: 10px;
+  margin-top: 20px;
+  list-style-type:none;
+}
+.deleteTodo{
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-width: 2px;
+	border-radius: 3px;
+	border-style: solid;
+	padding: 8px;
+	color: rgba(203,20,32,0.4);
+	border-color: rgba(203,20,32,0.4);
+	background-color: transparent;
+}
+/* text - should */
+.sd{
+  color: yellow;  
+  margin: 0 5px;
+}
+
+/* back to top */
+.UP{
+  height: 40;
+  width: 40;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: blue;
+  
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
