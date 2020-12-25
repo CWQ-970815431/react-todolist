@@ -22,8 +22,8 @@ class TodoList extends Component {
       <div className="todoWrapper">
     <li >
      {this.props.user} <span className="sd">Should</span>  {this.props.content}</li>
-     <button className="deleteTodo" onClick={this.handleClick.bind(this)}>delete</button>
-     <Button className="changeTodo" onClick={this.changeClick.bind(this)} type="primary">change</Button>
+     <button className="deleteTodo" onClick={this.handleClick}>delete</button>
+     <Button className="changeTodo" onClick={this.changeClick} type="primary">change</Button>
      </div>
     );
   }
