@@ -80,7 +80,7 @@ onState() {
            
         
           </div>
-         <ul ref={(ul)=>{this.ul=ul}}>
+         <ul }>
             {this.state.list.map((item,index)=>{
               return (
                  <TodoList 
